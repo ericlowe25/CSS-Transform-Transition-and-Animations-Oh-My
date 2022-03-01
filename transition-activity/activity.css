@@ -1,1 +1,47 @@
+button{
+    background-color: ghostwhite;
+}
 
+button:hover{
+    background-color: cornflowerblue;
+    color:white;
+    transition: 2s;
+}
+
+
+/******* bonus ********/
+
+button,
+a {
+  position: relative;
+}
+
+.caption h1 {
+  padding-top: 11px;
+}
+
+.caption h1,
+.caption p {
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.caption p {
+  font-size: 1.5em;
+  text-align: center;
+}
+
+.caption div {
+  position: absolute;
+  display: inline-block;
+  color: white;
+  padding: 0px;
+  text-align: left;
+  width: 64%;
+  transform: translateY(35vw);
+}
+
+.caption div:hover {
+  transform: translateY(-10%);
+  transition: transform 8s;
+}
